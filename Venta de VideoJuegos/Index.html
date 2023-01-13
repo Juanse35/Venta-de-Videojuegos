@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="Style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="content">
+        <aside class="aside">
+            <header class="header">
+                <img src="Material/Logo.png" class="logo">
+            </header>
+            <nav class="nav">
+                <ul class="menu">
+                    <li>
+                        <Button id="Todos" class="button-menu button-category active"><i class="bi bi-dpad-fill"></i> TODOS LOS JUEGOS</Button>
+                    </li>
+                    <li>
+                        <Button id="Recientes" class="button-menu button-category"><i class="bi bi-dpad-fill"></i> ULTIMOS LANZAMIENTOS</Button>
+                    </li>
+                    <li>
+                        <Button id="Destacados" class="button-menu button-category"><i class="bi bi-dpad-fill"></i> JUEGOS DESTACADOS</Button>
+                    </li>
+                    <li>
+                        <Button id="Clasicos" class="button-menu button-category"><i class="bi bi-dpad-fill"></i> JUEGOS CLASICOS</Button>
+                    </li>
+                    <li>
+                        <a href="Carrito.html" class="button-menu button-carrito"><i class="bi bi-cart-fill"></i> CARRITO <span id="numero" class="numero"> 0 </span></a>
+                    </li>
+                </ul>
+            </nav>
+        </aside>
+        
+        <main class="main">
+            <h2 class="title" id="title-principal">TODOS LOS JUEGOS</h2>
+            <div id="content-productos" class="content-productos">
+            </div>
+        </main>
+    </div>
+
+
+    <script src="Main.js"></script>
+</body>
+</html>

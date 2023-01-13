@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="Style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="content">
+        <aside class="aside">
+            <header class="header">
+                <img src="Material/Logo.png" class="logo">
+            </header>
+            <nav class="nav">
+                <ul class="menu">
+                    <li>
+                        <a href="Index.html" class="button-menu button-inicio"><i class="bi bi-dpad"></i> INICIO</a>
+                    </li>
+                    <li>
+                        </i><a href="Carrito.html" class="button-menu button-carrito active actives"><i class="bi bi-cart-fill"></i> Carrito</a>
+                    </li>
+                </ul>
+            </nav>
+
+            <footer class="footer">
+            </footer>
+        </aside>
+        
+        <main class="main">
+            <h2 class="title">CARRITO DE COMPRAS</h2>
+            <div class="card-carrito">
+               <p class="vacio disable" id="carrito-vacio">Tu Carrito esta Vacio. <i class="bi bi-cart-x"></i></p>
+               <div class="carrito-productos disable" id="carrito-productos">
+               </div>
+            </div>
+            
+            <div class="carrito-action disable" id="carrito-option">
+                <div class="carrito-action-izquierda">
+                       <button id="accion-vaciar" class="vaciar">VACIAR CARRITO</button>
+                   </div>
+                   <div class="carrito-action-derecha">
+                       <div class="total">
+                           <p class="p">TOTAL: $</p>
+                           <p id="Total">240.000</p>
+                       </div>
+                       <button id="accion-comprar" class="comprar">COMPRAR</button>
+                   </div>
+               </div>
+        </main>
+    </div>
+
+    <script src="Carrito.js"></script>
+</body>
+</html>
